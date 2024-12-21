@@ -5,11 +5,10 @@ import WelcomeComp from '../components/WelcomeComp'
 
 const HomePage = () => {
   return (
- <>
-
-<WelcomeComp/>
- </>
-  )
-}
+    <>
+      <WelcomeComp/>
+    </>
+  );
+};
 
 export default HomePage

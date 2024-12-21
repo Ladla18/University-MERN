@@ -3,7 +3,8 @@ const app = express()
 const PORT = 5000
 const mongoose = require("mongoose")
 const userRoute = require("./routes/userRoute")
-
+const cors = require("cors")
+app.use(cors())
 app.use(express.json())
 
 

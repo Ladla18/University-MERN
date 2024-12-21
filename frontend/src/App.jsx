@@ -9,8 +9,8 @@ const App = () => {
   return (
     <div>
       <Strip isReg={isReg} setisReg={setisReg} />
-        <Navbar/>
-      {isReg === "loggedinpage" ? <Login /> : <HomePage />}
+      <Navbar />
+      {isReg === "loggedinpage" ? <Login setisReg={setisReg} /> : <HomePage />}
     </div>
   );
 }
